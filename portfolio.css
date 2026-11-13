@@ -1,0 +1,102 @@
+/* Portfolio-specific additions to the inspected reference system. */
+.linkedin-icon{display:grid;place-items:center;width:20px;height:20px;border-radius:3px;background:#0a66c2;color:#fff;font:bold 15px Arial,sans-serif}
+.brand-text{font-weight:700;font-size:19px;letter-spacing:-.06em;line-height:1.1;color:var(--blue)}
+.brand-text.generali{font-family:Georgia,serif;color:#b3232a;font-size:24px;letter-spacing:-.04em}
+.brand-text.bt{font-size:16px;letter-spacing:-.05em;color:#253b67;max-width:180px}
+.brand-text.noteit{display:grid;place-items:center;width:32px;height:32px;background:#2563eb;color:#fff;border-radius:9px;font-size:22px;letter-spacing:-.08em}
+.brand-text.ucl{background:#172033;color:#fff;font-size:15px;letter-spacing:-.04em;padding:7px 6px;border-radius:3px}
+.brand-text.ai{font-size:17px;letter-spacing:-.04em}
+.profile-initials{width:96px;height:96px;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;flex-direction:column;border-radius:20px;background:linear-gradient(140deg,#eef4ff,#d9e6ff);border:1px solid #d6e3ff;color:#2563eb;font-size:38px;line-height:44px;font-weight:600;letter-spacing:-.08em;position:relative;overflow:hidden}
+.profile-initials:after{content:'';position:absolute;width:150px;height:150px;border:1px solid #ffffffb0;border-radius:50%;left:22px;top:20px;pointer-events:none}
+.profile-initials span{font-size:8px;line-height:16px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;z-index:1}
+.identity-card{padding:24px 12px}.identity-school{gap:8px}.identity-school>span:last-child{font-size:11px}
+.school-mark{display:grid;place-items:center;flex-shrink:0;width:40px;height:40px;background:var(--ink);border-radius:6px;color:#fff;font-size:14px;font-weight:700;letter-spacing:-.07em}
+.current-school .school-mark{width:52px;height:52px;font-size:20px}.current-school{padding:20px;align-items:flex-start}
+.tools-column .logo-grid{grid-auto-rows:112px}.tool-symbol{display:grid;place-items:center;width:32px;height:32px;font-weight:700;font-size:20px;letter-spacing:-.05em;border-radius:7px}
+.excel{color:#fff;background:#217346}.python{color:#376e9d;background:#fff0b8;font-size:16px}.sql{color:#3c74a5;background:#e4f0fc;font-size:12px}.r{color:#276dc3;background:#e9edf3}.bloomberg{color:#fff;background:#121212}.capiq{color:#c93142;background:#fff0f1;font-size:15px}.factset{color:#008aca;background:#e8f7ff}.pitchbook{color:#fff;background:#174d6b}
+.tab-logo .brand-text{font-size:18px;max-width:100%;letter-spacing:-.04em}.tab-logo .bt,.tab-logo .ucl{font-size:13px}.tab-logo .noteit{font-size:21px}.work-tab{gap:10px}.work-tab strong{text-wrap:pretty}
+.visual-badge{display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--blue)}
+.metric-strip{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px;padding-top:24px;border-top:1px solid var(--line)}
+.metric-strip strong{display:block;color:var(--blue);font-size:32px;line-height:40px;font-weight:600;letter-spacing:-.06em}.metric-strip span{font-size:12px;line-height:20px;color:var(--ink-2)}
+.analysis-card{border:1px solid var(--line);border-radius:14px;background:white;padding:24px}.analysis-card h4{font-size:30px;line-height:36px;font-weight:600;letter-spacing:-.04em;margin-top:12px}
+.formula-flow{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:28px;font-size:11px;line-height:18px}.formula-flow span{background:var(--blue-soft);color:var(--blue);border-radius:6px;padding:7px 9px}.formula-flow b{color:var(--ink-3);font-weight:400}
+.analysis-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.analysis-pair>div{padding:16px 12px;border:1px solid var(--line);background:#fff;border-radius:12px}.mini-symbol{display:block;color:var(--blue);font-size:22px;line-height:28px;margin-bottom:10px}.analysis-pair strong{font-size:12px;line-height:20px;display:block}.analysis-pair small{font-size:10px;line-height:16px;color:var(--ink-2);display:block;margin-top:4px}
+.noteit-small{display:grid;place-items:center;flex-shrink:0;width:23px;height:23px;border-radius:6px;background:var(--blue);color:#fff;font-size:14px;font-weight:700}.noteit-preview{border:1px solid var(--line);background:#fff;padding:22px;border-radius:16px;box-shadow:0 12px 24px -20px #17203344}.noteit-top{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink-2)}.noteit-top>.noteit-small{margin-left:auto}.record-dot{width:6px;height:6px;border-radius:50%;background:#e36262}.wave{height:96px;display:flex;gap:4px;align-items:center;justify-content:center;margin-block:12px 24px}.wave i{width:5px;height:var(--h);background:linear-gradient(#78a0ff,#2563eb);border-radius:9px;opacity:.75}.note-line{height:7px;background:#e8edf5;border-radius:8px;width:86%;margin-top:10px}.note-line.long{width:97%}.note-line.short{width:63%}.note-divider{margin-block:24px;border-top:1px solid var(--line)}.note-check{font-size:12px;line-height:20px;color:var(--ink-2);margin-top:10px;display:flex;align-items:center;gap:8px}.note-check span{color:var(--blue);background:var(--blue-soft);border-radius:50%;width:20px;height:20px;text-align:center}
+.conference-card{padding:28px;background:#fff;border:1px solid var(--line);border-radius:14px}.conference-card h4{margin-top:20px;font-size:37px;line-height:42px;letter-spacing:-.055em;font-weight:600}.conference-card h4>span{color:var(--blue)}.conference-count{margin-top:32px;padding-block:20px;border-block:1px solid var(--line);display:flex;align-items:center;gap:16px}.conference-count strong{color:var(--blue);font-size:43px;line-height:48px;font-weight:600;letter-spacing:-.05em}.conference-count>span{font-size:12px;line-height:18px;color:var(--ink-2);max-width:80px}.speaker-names{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;font-weight:600;margin-top:24px}.conference-card>p{font-size:11px;color:var(--ink-3);margin-top:18px}
+.impact-number{text-align:center;margin-bottom:24px}.impact-number>strong{display:block;font-size:80px;line-height:90px;color:var(--blue);font-weight:600;letter-spacing:-.08em}.impact-number>strong>span{font-size:42px;letter-spacing:-.04em}.impact-number>p{font-size:14px;color:var(--ink-2)}
+.employer-name{min-height:48px;display:flex;align-items:center;font-weight:700;font-size:24px;letter-spacing:-.04em}.employer-name.generali{font-family:Georgia,serif;font-size:26px;color:#b3232a;letter-spacing:-.03em}.employer-name.bt{color:#253b67;font-size:23px}.employer-name.vinci{color:#13488b;letter-spacing:.07em;font-size:27px}.employer-name.kpmg{color:#164b92;font-style:italic;letter-spacing:-.06em;font-size:30px}
+.modules{font-size:12px;line-height:21px;color:var(--ink-2);margin-top:16px;padding-inline:4px}.skill-symbol{font-size:22px;font-weight:500;color:var(--blue)}.share-intro{font-size:14px;line-height:22px;color:var(--ink-2);margin-top:16px}.copy-button{grid-column:span 2}.share-dialog .share-link{font-size:12px;line-height:20px}.hero h1{max-width:800px}.hero-focus{max-width:850px;margin-inline:auto}
+@media(min-width:1101px){.work-tabs{grid-template-columns:repeat(5,minmax(0,1fr))}.work-tab{padding:16px 10px;gap:8px}.work-tab .tab-logo{width:36px}.work-tab .tab-arrow{display:none}}
+@media(max-width:1100px){.work-tab:last-child{grid-column:span 2}.brand-text.bt{font-size:14px}}
+@media(max-width:900px){.site-header .social-link{font-size:12px}.hero-network{margin-top:36px}.hero h1{font-size:56px;line-height:62px}.work-visual{max-width:none}.work-copy h3{max-width:640px}}
+@media(max-width:600px){.site-header .social-link>span:last-child{display:none}.hero h1{font-size:45px;line-height:51px;max-width:340px}.hero-focus{max-width:340px}.hero-network{grid-template-columns:1fr}.tools-column .logo-grid{grid-auto-rows:90px}.brand-text.bt{font-size:16px}.identity-stack{display:none}.work-copy h3{font-size:29px;line-height:35px}.formula-flow span{padding:7px 6px}.analysis-card{padding:20px}.analysis-card h4{font-size:28px;line-height:34px}.analysis-pair>div{padding:12px 10px}.conference-card{padding:22px}.conference-card h4{font-size:32px;line-height:37px}.metric-strip{gap:12px}.metric-strip span{font-size:11px}.noteit-preview{padding:16px}.wave{gap:3px}.wave i{width:4px}.current-school{padding:16px}.current-school .school-mark{width:40px;height:40px;font-size:15px}.impact-number>strong{font-size:68px;line-height:78px}.impact-number>strong>span{font-size:36px}footer>div{flex-wrap:wrap}}
+
+/* Verified logos, quieter tool typography and authentic recommendations. */
+.logo-grid{grid-auto-rows:132px}
+.logo-tile{justify-content:center;padding:12px 8px}
+.tile-icon.official-logo{height:48px;margin-bottom:10px}
+.tile-icon.official-logo img{display:block;max-width:136px;max-height:40px;width:auto;height:auto;object-fit:contain}
+.tile-icon.noteit-logo img{width:40px;height:40px}
+.society-logo-plate{display:flex;align-items:center;justify-content:center;width:132px;height:48px;padding:7px 8px;border-radius:7px;background:#172033}
+.tile-icon.official-logo .society-logo-plate img{width:116px;max-height:34px}
+.profile-initials{background:var(--blue-soft);border:0;border-radius:0;width:auto;height:auto;padding-block:12px;font-size:40px;line-height:48px;letter-spacing:-.06em}
+.profile-initials:after{content:none}
+.identity-school{justify-content:center}
+.ucl-logo-plate{flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#172033;padding:8px;border-radius:5px;width:70px;height:34px}
+.ucl-logo-plate img{display:block;max-width:100%;height:auto;object-fit:contain}
+.education-ucl{width:104px;height:52px}
+.tool-list{display:grid;gap:0;margin:0;padding:5px 20px;background:#fff;border:1px solid var(--line);border-radius:16px;text-align:left}
+.tool-list>div{padding-block:15px}
+.tool-list>div+div{border-top:1px solid var(--line)}
+.tool-list dt{font-size:12px;line-height:20px;font-weight:600;color:var(--ink)}
+.tool-list dd{margin:5px 0 0;font-size:12px;line-height:21px;color:var(--ink-2)}
+.work-tab .tab-logo{width:56px;min-width:56px;height:38px;padding:0;border:0;border-radius:0;background:transparent}
+.work-tab .tab-logo img{display:block;max-width:56px;max-height:32px;width:auto;height:auto;object-fit:contain}
+.work-tab .noteit-tab-logo{width:32px;min-width:32px}
+.work-tab .noteit-tab-logo img{width:32px;height:32px}
+.work-tab .society-tab-logo{padding:5px;background:#172033;border-radius:5px}
+.work-tab .society-tab-logo img{max-width:46px;max-height:28px}
+.work-tab:last-child{justify-content:center}
+.employer-logo{height:64px;width:216px;max-width:100%;display:flex;align-items:center;justify-content:flex-start}
+.employer-logo>img{display:block;width:auto;height:auto;max-width:100%;max-height:58px;object-fit:contain}
+.employer-logo>img[src*="generali"]{width:216px}
+.employer-logo>img[src*="banque"]{width:200px}
+.employer-logo>img[src*="vinci"]{width:150px}
+.employer-logo>img[src*="kpmg"]{width:140px}
+.skill-row{gap:0}
+.skill-row>div{min-width:0}
+.hardware-visual{justify-content:flex-start;background:#f7f6f2}
+.visual-caption>span:first-child{display:flex;align-items:center;gap:8px}
+.noteit-inline-logo{display:inline-block;object-fit:contain}
+.prototype-figure{margin:24px 0 16px}
+.prototype-figure>img{display:block;width:100%;height:auto;aspect-ratio:217.25/83.16;object-fit:contain}
+.prototype-figure figcaption{font-size:11px;line-height:18px;color:var(--ink-3);margin-top:12px}
+.hardware-details{margin:0;display:grid}
+.hardware-details>div{padding-block:12px;border-top:1px solid var(--line)}
+.hardware-details dt{font-size:12px;line-height:20px;font-weight:600}
+.hardware-details dd{margin:4px 0 0;color:var(--ink-2);font-size:12px;line-height:20px}
+.prototype-status{margin-top:20px;color:var(--ink-2);font-size:13px;line-height:21px}
+.prototype-status strong{font-weight:600;color:var(--ink)}
+.project-links{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;font-size:13px;line-height:21px;font-weight:600;color:var(--blue)}
+.project-links a:hover{text-decoration:underline}
+.recommendations-section{margin-top:96px;background:var(--off);scroll-margin-top:32px}
+.recommendations-inner{padding-block:48px}
+.recommendations-heading{margin-bottom:32px}
+.recommendations-heading .eyebrow{line-height:20px;color:var(--blue);letter-spacing:0}
+.recommendations-heading h2{font-size:40px;line-height:48px;font-weight:600;letter-spacing:0;margin:12px 0 0}
+.recommendation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.recommendation-card{margin:0;padding:32px;border:1px solid var(--line);border-radius:20px;background:#fff;min-width:0}
+.recommendation-card blockquote{margin:0}
+.recommendation-card blockquote p{font-size:20px;line-height:32px;letter-spacing:0;font-weight:400;color:var(--ink)}
+.recommendation-card figcaption{display:flex;flex-direction:column;gap:6px;margin-top:24px}
+.recommendation-card figcaption strong{font-size:15px;line-height:24px;font-weight:600}
+.recommendation-card figcaption span{font-size:13px;line-height:21px;color:var(--ink-2)}
+.recommendation-card figcaption small{font-size:12px;line-height:20px;color:var(--ink-3)}
+.recommendation-card figcaption a:hover{text-decoration:underline;text-underline-offset:3px;color:var(--blue)}
+@media(max-width:1100px){.work-tab .tab-logo{width:64px}.work-tab .tab-logo img{max-width:60px}.work-tab .noteit-tab-logo{width:32px}.work-tab:last-child{justify-content:flex-start}}
+@media(max-width:900px){.recommendation-grid{grid-template-columns:1fr}.recommendation-card{max-width:none}.recommendations-heading h2{font-size:36px;line-height:44px}.tool-list{padding-inline:24px}.identity-school{gap:6px}}
+@media(max-width:600px){.tile-icon.official-logo img{max-width:144px}.logo-grid{grid-auto-rows:132px}.tool-list{padding:4px 20px}.tool-list dt,.tool-list dd{font-size:13px}.recommendations-section{margin-top:64px}.recommendations-inner{padding-block:32px}.recommendations-heading h2{font-size:30px;line-height:38px}.recommendation-card{padding:24px;border-radius:16px}.recommendation-card blockquote p{font-size:18px;line-height:29px}.recommendation-card figcaption span{font-size:12px;line-height:20px}.recommendation-grid{gap:16px}.education-ucl{width:90px;height:44px}.project-links{gap:12px 20px}.hardware-visual{padding:20px}}
+@media print{.recommendations-section{margin-top:24px}.recommendations-inner{padding-block:24px}.recommendation-grid{grid-template-columns:1fr 1fr}.recommendation-card{padding:16px;break-inside:avoid}.recommendation-card blockquote p{font-size:13px;line-height:20px}.recommendations-heading h2{font-size:24px;line-height:32px}}
+
+/* Plain tabs and list bullets keep the emphasis on the real work. */
+.work-tab{justify-content:flex-start;padding:18px 16px}.work-tab:last-child{justify-content:flex-start}.contribution-list li{padding-left:16px}.contribution-list li::before{content:"•";color:var(--ink-3);font-weight:400}
